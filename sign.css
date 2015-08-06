@@ -1,0 +1,59 @@
+body{
+		background-image: url(signin.jpg);
+		line-height:35px;
+		background-position: -5px -100px;
+		background-attachment: fixed;
+	}
+	.contain{
+
+		border-radius: 25px;
+		width:400px;
+		height: 300px;
+		position: absolute;
+		top: 50%;
+		left: 30%;
+		margin-top: -150px;
+		margin-left: -150px;
+		background-color: rgba(192,192,162,0.3);
+		}
+	.signin {
+		padding: 30px;
+	}
+	.enter{
+		width: 350px;
+	   margin-top: 10px;
+	}
+	input[name = "sign-text"]{
+		color: gray;
+		width: 300px;
+		height: 30px;
+	}
+	img{
+		width: 80px;
+		height: 85px;
+		margin-left:35%;
+	}
+	
+	a.sign:link,a.sign:visited
+{
+
+display:block;
+font-weight:bold;
+font-size:25px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:white;
+background-color:#3399FF;
+width:300px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+
+}
+a.sign:hover,a.sign:active
+{
+background-color:#3366FF;
+}
+.sign{
+	border-radius: 10px;
+	margin-top: 10px;
+	}
